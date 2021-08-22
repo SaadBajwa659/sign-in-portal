@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.form-styled {
+  position: absolute;
+  top: 28%;
+  left: 55%;
+  right: 40%;
+  bottom: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  /* background-color: white; */
+  border-radius: 1.5rem;
+  font-size: larger;
+}
+.logo {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  right: 8%;
+  bottom: 40%;
+  width: max-content;
+  font-size: 3.1rem;
+}
+.sign {
+  position: absolute;
+  top: 20%;
+  left: 75%;
+  right: 50%;
+  bottom: 40%;
+  width: max-content;
+}
+body {
+  background: #fff
+    url(/images/white\ photo.jpg)
+    no-repeat center center;
+}

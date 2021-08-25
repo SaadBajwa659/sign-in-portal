@@ -1,0 +1,51 @@
+.logo {
+  position: absolute;
+  top: 0%;
+  left: 46%;
+  right: 20%;
+  bottom: 50%;
+  font-size: xx-large;
+}
+.form_styled {
+  position: absolute;
+  top: 15%;
+  left: 26%;
+  right: 40%;
+  bottom: 50%;
+  display: flex;
+  width: 50%;
+  align-items: center;
+  /* background-color: white; */
+  border-radius: 1.5rem;
+  font-size: xx-large;
+}
+html,
+body {
+  background-image: url(../images/tehnologii-bezopasnost.jpg);
+  background-size: inherit;
+}
+.first-coloumn {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  padding-left: 50%;
+  padding: 0px 0px 0px 16px !important;
+  border: none;
+  vertical-align: middle;
+  height: 48px;
+  line-height: 48px;
+}
+.button {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  transition: 0.5s ease-out;
+  border: none;
+  padding: 0.5rem 1.5rem;
+}
+.button:hover {
+  color: white;
+  background-color: black;
+}

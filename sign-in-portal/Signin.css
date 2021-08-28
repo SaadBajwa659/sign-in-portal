@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #fff
-    url(/images/white\ photo.jpg)
-    no-repeat center center;
 }
 .form-styled {
   position: absolute;
@@ -27,4 +24,32 @@
   right: 25%;
   bottom: 35%;
   font-size: xxx-large;
+  color: crimson;
+}
+.field {
+  font-size: 1.5rem;
+}
+html,
+body {
+  background-image: url(/images/internet-internet-hi-tech-security-wallpaper-preview.jpg);
+  background-size: 70rem;
+}
+.form-styled > label {
+  color: crimson;
+}
+.form-styled > a {
+  color: crimson;
+}
+.button {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  transition: 0.5s ease-out;
+  border: none;
+  padding: 0.5rem 1.5rem;
+}
+.button:hover {
+  color: white;
+  background-color: black;
 }

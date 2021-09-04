@@ -1,51 +1,158 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 html,
 body {
-  background-image: url(/images/4893763.jpg);
-  background-size: cover;
+  background-image: url(/images/white\ photo.jpg);
+  background-size: auto;
+}
+.about-1 {
+  font-weight: lighter;
+  position: absolute;
+  top: 0rem;
+  left: 1.5rem;
+}
+.store {
+  font-weight: lighter;
+  position: absolute;
+  top: 0rem;
+  left: 5.4rem;
+}
+.gmail {
+  font-weight: lighter;
+  position: absolute;
+  top: 0rem;
+  left: 49.9rem;
+}
+.images {
+  font-weight: lighter;
+  position: absolute;
+  top: 0rem;
+  left: 53.4rem;
+}
+.img {
+  position: absolute;
+  top: 1.1rem;
+  left: 58.1rem;
+  height: 25px;
+  width: 25px;
+}
+.me {
+  border-radius: 50%;
+  position: absolute;
+  top: 1.1rem;
+  left: 61rem;
+  height: 25px;
+  width: 25px;
 }
 .logo {
   position: absolute;
-  top: 40%;
-  left: 2%;
-  right: 8%;
-  bottom: 40%;
-  width: max-content;
-  font-size: 2.8rem;
-  color: white;
+  top: 0.9rem;
+  left: 23rem;
+  width: 50%;
+  height: 50%;
+  font-size: 6rem;
 }
-.button {
-  display: inline-block;
-  text-decoration: none;
-  color: black;
-  background-color: white;
-  transition: 0.5s ease-out;
-  border: none;
-  padding: 0.5rem 1.5rem;
+.g-1 {
+  color: rgb(66, 133, 244);
 }
-.button:hover {
-  color: white;
-  background-color: black;
+.o-1 {
+  color: #ea4335;
 }
-.form {
+.o-2 {
+  color: #fbbc05;
+}
+.g-2 {
+  color: rgb(66, 133, 244);
+}
+.l {
+  color: #34a853;
+}
+.e {
+  color: #ea4335;
+}
+.search {
   position: absolute;
-  top: 15%;
-  left: 26%;
-  right: 40%;
-  bottom: 50%;
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-  align-items: center;
-  /* background-color: white; */
-  border-radius: 1.5rem;
-  font-size: xx-large;
-  color: white;
+  top: 15rem;
+  left: 15rem;
+  width: 35rem;
+  height: 2.3rem;
+  border-radius: 2rem;
+  border-style: solid;
+  border: none;
+  border-width: 1px;
+  border: 1px solid #cccccc;
 }
-.form > a {
-  color: white;
+.button-1 {
+  position: absolute;
+  top: 19rem;
+  left: 25rem;
+  width: 8rem;
+  height: 2rem;
+}
+.button-2 {
+  position: absolute;
+  top: 19rem;
+  left: 34rem;
+  width: 8rem;
+  height: 2rem;
+}
+.line {
+  position: absolute;
+  top: 22rem;
+  left: 26rem;
+  font-weight: lighter;
+}
+.country {
+  position: absolute;
+  top: 34.6rem;
+  left: 2rem;
+  font-weight: lighter;
+  color: #6f6f6f;
+}
+.about-2 {
+  position: absolute;
+  top: 37.5rem;
+  left: 9.5rem;
+  font-weight: lighter;
+  color: #6f6f6f;
+}
+.advertise {
+  position: absolute;
+  top: 37.5rem;
+  left: 14rem;
+  font-weight: lighter;
+  color: #6f6f6f;
+}
+.business {
+  position: absolute;
+  top: 37.5rem;
+  left: 20rem;
+  font-weight: lighter;
+  color: #6f6f6f;
+}
+.search-1 {
+  position: absolute;
+  top: 37.5rem;
+  left: 25rem;
+  font-weight: lighter;
+  color: #6f6f6f;
+}
+.privacy {
+  position: absolute;
+  top: 37.5rem;
+  left: 42rem;
+  font-weight: lighter;
+  color: #6f6f6f;
+}
+.term {
+  position: absolute;
+  top: 37.5rem;
+  left: 47rem;
+  font-weight: lighter;
+  color: #6f6f6f;
+}
+.setting {
+  position: absolute;
+  top: 37.5rem;
+  left: 51rem;
+  font-weight: lighter;
+  color: #6f6f6f;
 }
